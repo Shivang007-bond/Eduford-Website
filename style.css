@@ -489,22 +489,40 @@ nav .fa{
 }
 
 .form{
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
-    padding: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height:2;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-transform: uppercase;
+    background-color: #fff3f3;
 }
 
 .form input{
-    height: 20px;
+    height: 25px;
     width: 20rem;
+    transition: 0.5s ease-in-out;
+}
+
+.form input:hover{
+    border: 2px solid red;
+    width: 25rem;
+    height: 30px;
+}
+
+.form textarea{
+    transition: 0.5s ease-in-out;
+}
+
+.form textarea:hover{
+    border: 2px solid red;
+    width: 25rem;
 }
 
 .form .btn{
-    padding: 8px 22px;
+    padding: 8px 24px;
     color: white;
     background-color: var(--redcolor);
     font-size: 16px;  
@@ -512,7 +530,7 @@ nav .fa{
 
 .form .btn:hover{
     color: black;
-    background-color: rgb(143, 209, 143);
+    background-color: rgb(156, 236, 156);
 }
 
 @media(max-width:700px){
